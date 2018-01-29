@@ -10,19 +10,11 @@ namespace ComicBookGallery_2.Controllers
     {
         public ActionResult Detail()
         {
-            if(DateTime.Today.DayOfWeek == DayOfWeek.Monday)
-                )
-            {
-                return Redirect("/");
-              
 
-            }
-
-            return Content("Hellow from the comic Books Controller!");
-           
+            return View();
 
            
-        }
+         }
     }
 
 }

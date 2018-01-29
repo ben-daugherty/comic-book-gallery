@@ -4,14 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ComicBookGallery.Controllers
+namespace ComicBookGallery_2.Controllers
 {
-    public class ComicBookController : Controller
+    public class ComicBooksController : Controller
     {
         public string Detail()
         {
-            return "Hello from the comic books controller!";
+            return "Hellow from the comic Books Controller!";
         }
-
     }
+
 }
